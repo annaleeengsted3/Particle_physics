@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Particle Simulation</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .Module-Warpdrive {
+        width: 100vw;
+        height: 100vh;
+      }
+      article.key {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.815);
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0.678),
+          rgba(0, 0, 0, 0)
+        );
+        padding: 0.5vw 2vw;
+      }
+      article.key p {
+        color: rgba(255, 255, 255, 0.938);
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: 100;
+      }
+      article.key p .bold {
+        font-weight: 800;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="Module-Warpdrive"></div>
+    <script src="app.js" type="text/javascript"></script>
+    <article class="key">
+      <p>
+        <span class="bold"> Move the mouse</span> to change destination point
+      </p>
+      <p><span class="bold">Press [1-9]</span> to change physics settings</p>
+      <p>
+        <span class="bold">Press [n]</span> to cycle through different colors
+      </p>
+      <p><span class="bold">Click</span> to create explosion</p>
+    </article>
+  </body>
+</html>
